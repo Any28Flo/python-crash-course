@@ -1,4 +1,4 @@
-# Simpler code
+````# Simpler code
 
 status :
 
@@ -16,3 +16,4 @@ for line in lines.splitlines():
 ```
 
 Remove the temporary variable from each of the programs in this section, to make them more concise.
+````
