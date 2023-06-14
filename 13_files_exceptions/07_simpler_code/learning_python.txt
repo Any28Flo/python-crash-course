@@ -1,0 +1,10 @@
+In Python, you can create tuples and lists.
+In Python, you can create dictionaries.
+In Python, you can read files.
+In Python, you can use modules.
+In Python, you can use classes.
+In Python, you can use reusable modules.
+In Python, you can import modules.
+In Python, write in files.
+
+
