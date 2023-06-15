@@ -13,7 +13,11 @@ def word_count(path):
         print(f"The file {path} has about {num_words} words.")
 
 
-filenames = ['alice_adventure.txt', 'little.txt', 'moby_dick.txt',  'siddhartha.txt']
+# The file siddharta is outside of folder files
+# So instead the program fails we trigger the except FileNotFound with the pass
+# statement
+
+filenames = ['alice_adventure.txt', 'little.txt', 'moby_dick.txt', 'siddhartha.txt']
 
 for file in filenames:
     route = Path(f'./files/{file}')
